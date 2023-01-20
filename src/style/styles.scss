@@ -1,0 +1,23 @@
+/* stylelint-disable */
+@import "kit/_varibles.scss";
+@import "kit/_cross.scss";
+@import "fonts.scss";
+@import "zerostyle.scss";
+@import "btns.scss";
+@import "header.scss";
+@import "text-section.scss";
+@import "video.scss";
+@import "footer.scss";
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@import "header.mobile.scss";
+@import "video.mobile.scss";
+@import "text.mobile.scss";
+@import "footer.mobile.scss";
+/* stylelint-enable */

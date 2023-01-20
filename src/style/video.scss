@@ -1,0 +1,63 @@
+.video {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  background: rgb(140 79 42 / 30%);
+  flex-direction: column;
+
+  &__media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  &__title {
+    color: $wht;
+    font-family: $OswB;
+    font-weight: 700;
+    margin-bottom: 63px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  &__sub-title {
+    font-size: 24px;
+    line-height: 32px;
+    color: $wht;
+    max-width: 351px;
+    width: 100%;
+    text-align: center;
+    margin-top: 54px;
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  &__play {
+    border-radius: 100%;
+
+    & i {
+      font-size: 60px;
+      color: $wht;
+      background: $blu;
+      padding: 44px 50px 44px 60px;
+      border-radius: 100%;
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      color: $blu;
+      background: $wht;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "some",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint \"**/*.scss\" --fix",
+    "format:scss": "prettier --write src/style/",
+    "compile": "sass src/style/styles.scss src/postcss/styles.css --no-source-map",
+    "prod": "postcss src/postcss/ --dir src/postcss/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loginAbbos/FinalExam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loginAbbos/FinalExam/issues"
+  },
+  "homepage": "https://github.com/loginAbbos/FinalExam#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "prettier": "^2.8.3",
+    "sass": "^1.57.1",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard-scss": "^6.1.0"
+  }
+}

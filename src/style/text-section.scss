@@ -1,0 +1,52 @@
+.text {
+  &__title {
+    margin-top: 66px;
+    font-family: $OswB;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #464547;
+    margin-bottom: 40px;
+  }
+
+  &__sub-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    color: $gry;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-body {
+    display: flex;
+    gap: 83px;
+    margin: 45px 0;
+
+    & .text-left {
+      font-size: 16px;
+      line-height: 22px;
+      color: $gry;
+      max-width: 408px;
+      width: 100%;
+    }
+
+    & .text-right {
+      font-size: 16px;
+      line-height: 22px;
+      color: $gry;
+      max-width: 416px;
+      width: 100%;
+    }
+  }
+
+  &-footer {
+    margin-bottom: 98px;
+  }
+}

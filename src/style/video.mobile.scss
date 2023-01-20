@@ -1,0 +1,39 @@
+@media (max-width: 1440px) {
+  .video {
+    height: 100%;
+
+    &-body {
+      margin: 30px auto;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .video {
+    &__media {
+      width: inherit;
+    }
+
+    &__sub-title {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+
+    &__title {
+      margin-bottom: 20px;
+      font-size: 36px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .video {
+    &__title {
+      font-size: 28px;
+    }
+
+    &__play i {
+      padding: 22px 25px 25px 35px;
+    }
+  }
+}

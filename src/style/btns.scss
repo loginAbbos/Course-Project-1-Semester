@@ -1,0 +1,13 @@
+.btn-primary {
+  background: $blu;
+  border-radius: 18px;
+  padding: 5px 17px;
+  color: $wht;
+  text-transform: uppercase;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $blu;
+    background: $wht;
+  }
+}
